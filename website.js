@@ -21,6 +21,12 @@ function f1(){
 			x = replace(x,i,temp);
 		
 		}
+		else
+		{
+			temp = x.substring(i, i+1);
+			temp = temp.toLowerCase();
+			x = replace(x,i,temp);
+		}
 	}
 
 
